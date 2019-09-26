@@ -1,4 +1,13 @@
+const mobileMenu = document.getElementById("mobile-menu");
+const mobileItems = document.getElementById("menu-items");
+mobileItems.childNodes.forEach( child => {
+  child.addEventListener("click", ()=> {
+    mobileMenu.checked = false;
+  })
+})
+
 window.onscroll = function() {scrollFunction()};
+// mobileMenu.checked = false;
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
