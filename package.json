@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Queenshiba/Futaba-Abacus-School.git"
+    "url": "git+https://github.com/Queenshiba/futaba-abacus-school.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Queenshiba/Futaba-Abacus-School/issues"
+    "url": "https://github.com/Queenshiba/futaba-abacus-school/issues"
   },
-  "homepage": "https://github.com/Queenshiba/Futaba-Abacus-School#readme",
+  "homepage": "https://github.com/Queenshiba/futaba-abacus-school#readme",
   "dependencies": {
     "gh-pages": "^2.1.1"
   }
