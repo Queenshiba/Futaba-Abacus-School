@@ -731,7 +731,6 @@ h2 {
 .schedule-detail {
     margin: auto 0;
     width: 60%;
-    height: 30vh;
     padding-left: 40px;
 }
 
@@ -754,7 +753,7 @@ h2 {
     .schedule-detail  {
         display: flex;
         flex-direction: column;
-        padding: 100px 20px 20px 0; 
+        padding: 100px 20px 100px 20px; 
         
         width: 100%;
     
