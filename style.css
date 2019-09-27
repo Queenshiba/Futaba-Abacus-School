@@ -500,7 +500,7 @@ h2 {
     /* background: red; */
     display: flex;
     flex-direction: column;
-    height: 150vh;
+    /* height: 150vh; */
 }
 
 .schedule-title {
@@ -531,7 +531,7 @@ h2 {
     column-gap: 2px;
     row-gap: 4px;
     background: rgba(190, 191, 192, 0.11);
-    grid-template-columns: 1fr 1fr 0.7fr 0.7fr 1fr 0.7fr 1fr;
+    grid-template-columns: 0.7fr 1fr 0.5fr 0.5fr 1fr 0.5fr 1fr;
     grid-template-rows: 70px 100px 100px 100px 100px 100px 100px;
 
 }
@@ -851,7 +851,7 @@ h2 {
 .map-detail>p {
     
     display: flex;
-    padding-left: 50px;
+    padding-left: 20px;
 }
 
 .map-container {
@@ -885,7 +885,7 @@ h2 {
     }
     .map-detail {
         width: 90%;
-        padding: 30px;
+        padding: 10px;
     }
 }
 
