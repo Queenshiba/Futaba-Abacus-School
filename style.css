@@ -762,12 +762,9 @@ h2 {
 }
 
 
-.price {
-    height: 80vh;
-}
 
 .price-title {
-    height: 30%;
+    height: 200px;
     background: #2EB872;
     display: flex;
     justify-content: center;
@@ -781,7 +778,7 @@ h2 {
 }
 
 .price-detail {
-    height: 70%;
+    height: 600px;
     margin: auto 0;
     display: flex;
     justify-content: center;
