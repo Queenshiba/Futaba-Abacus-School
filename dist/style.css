@@ -82,7 +82,7 @@ nav > img {
 }
 
 .LP-laptop {
-    background: url(./img/aGirlUsingAnAbacusdarken.png) no-repeat;
+    background: url(./img/futaba-lp.jpg) no-repeat;
     background-size: auto 100vh;
     height: 95vh;
     background-position: center;
@@ -96,7 +96,9 @@ nav > img {
     align-items: center;
     padding-top: 100px;
 }
-
+.main p {
+    font-size: 1.2em;
+}
 .btn-container {
     margin: auto;
 }
@@ -106,7 +108,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1em;
+    font-size: 1.3em;
 }
 
 .call {
@@ -132,7 +134,7 @@ h2 {
 
 /* LP-mobile */
 .LP-mobile {
-    background: url(./img/aGirlUsingAnAbacusdarken.png) no-repeat;
+    background: url(./img/futaba-lp.jpg) no-repeat;
     background-size: auto 100vh;
     height: 90vh;
     background-position: center;
@@ -377,6 +379,9 @@ h2 {
     h2 {
         font-size: 1em;
     }
+    .main p {
+        font-size: 0.9em;
+    }
 }
 
 
@@ -519,6 +524,7 @@ h2 {
     display: flex;
     flex-direction: row;
     padding-left: 20px;
+    padding-bottom: 30px;
 }
 
 
