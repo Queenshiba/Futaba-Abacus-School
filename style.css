@@ -119,18 +119,18 @@ h2 {
     /*Button Color*/
     color: #FFF;
     border-bottom: solid 4px rgba(141, 53, 62, 0.18);
-    border-radius: 3px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
 }
+/* .call:hover {background-color: transparent}
 
 .call:active {
-    /*on Click*/
-    -ms-transform: translateY(4px);
-    -webkit-transform: translateY(4px);
-    transform: translateY(4px);
-    /*Move down*/
-    border-bottom: none;
-    /*disappears*/
-}
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+} */
+
 
 /* LP-mobile */
 .LP-mobile {
@@ -226,6 +226,7 @@ h2 {
     width: 50px;
     height: 50px;
     opacity: 0;
+    
   }
   
   .menu-wrap .hamburger {
@@ -236,10 +237,11 @@ h2 {
     width: 70px;
     height: 70px;
     padding: 1rem;
-    /* background: rgba(0, green, 0, 50%); */
+    background: rgba(88, 88, 88, 0.2);
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
 
   /* Hamburger Line */
@@ -328,6 +330,7 @@ h2 {
     justify-content: center;
     transform: scale(1);
     transition: all 0.4s ease;
+    
   }
   
   .menu-wrap .menu > div > div {
@@ -416,10 +419,11 @@ h2 {
 
 .no1 {
     background: rgb(46, 184, 114, 0.8);
-    height: 100%;
+    height: 400px;
     width: 100%;
     display: flex;
     flex-direction: column;
+    box-shadow: 0px 6px 10px 0px rgba(115,114,115,0.5);
 }
 
 .figure1 {
@@ -441,11 +445,12 @@ h2 {
     text-align: center;
 }
 .no2 {
-    background: rgb(46, 184, 114, 0.5);
-    height: 100%;
+    background: rgb(46, 184, 114, 0.6);
+    height: 400px;
     width: 100%;
     display: flex;
     flex-direction: column;
+    box-shadow: 0px 6px 10px 0px rgba(115,114,115,0.5);
 }
 
 .figure2 {
@@ -459,10 +464,11 @@ h2 {
 
 .no3 {
     background: rgb(46, 184, 114, 0.7);
-    height: 100%;
+    height: 400px;
     width: 100%;
     display: flex;
     flex-direction: column;
+    box-shadow: 0px 6px 10px 0px rgba(115,114,115,0.5);
 }
 
 .figure3 {
@@ -480,23 +486,34 @@ h2 {
         height: auto;
         
     }
+    
     .number123 > div {
-        font-size: 1em;
+        font-size: 0.8em;
     }
     .no1 {
         display: flex;
         flex-direction: row;
+        height: 250px;
+        box-shadow: 0px 6px 10px 0px rgba(115,114,115,0.5);
     }   
     .no2 {
         display: flex;
         flex-direction: row;
+        height: 250px;
+        box-shadow: 0px 6px 10px 0px rgba(115,114,115,0.5);
     } 
     .no3 {
         display: flex;
         flex-direction: row;
+        height: 250px;
+        box-shadow: 0px 6px 10px 0px rgba(115,114,115,0.5);
     } 
     .comment {
         margin: auto;
+    }
+    .figure1, .figure2, .figure3 {
+        font-size: 200px;
+
     }
 }
 
@@ -901,7 +918,7 @@ h2 {
     height: 0;
     border-top: 25px solid  transparent;
     border-bottom: 25px solid transparent;
-    border-left: 20px solid rgb(255, 243, 142, 1);
+    border-left: 20px solid rgb(255, 243, 142, 0.7);
     margin-right: auto;
     z-index: 1;
 
@@ -1072,6 +1089,11 @@ h2 {
     margin-left: 20%;
 }
 
+.note {
+    font-size: 0.8em;
+    text-align: center;
+}
+
 @media only screen and (min-width: 800px)  {
     .sunflower1-m, .sunflower2-m,.sunflower3-m,.mushiami-m, .tag  {
         display: none;
@@ -1082,7 +1104,7 @@ h2 {
 .bar {
         position: absolute;
         left: 10%;
-        height: 1700px;
+        height: 1900px;
     }
     .month {
     width: 60px;
@@ -1119,12 +1141,13 @@ h2 {
     }
     .container-right {
         margin-left: 10%;
-        padding: 5px 0;
+        padding: 10px 0;
         padding-right: 10px;        
     }
     .container-left {
         padding: 5px 0;
         margin-left: 10%;
+        padding: 10px 0;
         padding-right: 10px;
     }
 
