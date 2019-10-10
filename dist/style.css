@@ -517,7 +517,9 @@ h2 {
     }
     .figure1, .figure2, .figure3 {
         font-size: 200px;
-
+    }
+    .course {
+        font-size: 0.8em;
     }
 }
 
@@ -889,7 +891,7 @@ h2 {
 }
 
 .comment-left {
-    background:rgb(255, 243, 142, 1);
+    background:rgb(255, 243, 142, 0.7);
     height: 50px;
     width: 300px;
     position: relative;
@@ -922,7 +924,7 @@ h2 {
     height: 0;
     border-top: 25px solid  transparent;
     border-bottom: 25px solid transparent;
-    border-left: 20px solid rgb(255, 243, 142, 0.7);
+    border-left: 20px solid rgb(255, 243, 142, 0.5);
     margin-right: auto;
     z-index: 1;
 
@@ -952,7 +954,7 @@ h2 {
 }
 .comment-right {
     color: #FFF;
-    background:rgba(255, 112, 126, 1);
+    background:rgba(255, 112, 126, 0.7);
     height: 50px;
     width: 300px;
     position: relative;
@@ -965,7 +967,7 @@ h2 {
     height: 0;
     border-top: 25px solid transparent;
     border-bottom: 25px solid transparent;
-    border-right: 20px solid rgba(255, 112, 126, 1);
+    border-right: 20px solid rgba(255, 112, 126, 0.7);
     z-index: 1;
     
 }
@@ -1140,7 +1142,7 @@ h2 {
         height: 0;
         border-top: 25px solid transparent;
         border-bottom: 25px solid transparent;
-        border-right: 20px solid rgb(255, 243, 142, 1);
+        border-right: 20px solid rgb(255, 243, 142, 0.5);
         z-index: 1;
     }
     .container-right {
@@ -1167,7 +1169,7 @@ h2 {
 }
 
 .spring {
-    height: 50px;
+    height: 60px;
     margin-left: 40%;
     z-index: 1;
 }
@@ -1181,7 +1183,7 @@ h2 {
 }
 .koiobori {
     height: 50px;
-    margin-left: 50%;
+    margin-left: 70%;
 }
 .ajisai {
     height: 50px;
@@ -1189,7 +1191,7 @@ h2 {
     z-index: -1;
 }
 .snail {
-    height: 40px;
+    height: 20px;
     margin-left: 50%;   
 }
 /* summer img */
@@ -1203,8 +1205,7 @@ h2 {
     z-index: 1;
 }
 .sun {
-    height: 25px;
-    margin-left: 25%;
+display: none;
 }
 .sunflower1, .sunflower2,.sunflower3,.mushiami  {
     display: none;
@@ -1214,17 +1215,17 @@ h2 {
     margin-left: 45%;
 }
 .sunflower2-m {
-    height: 43px;
-    margin-left: 65%;
+    height: 50px;
+    margin-left: 55%;
     z-index: 1;
 }
 .sunflower3-m {
-    height: 50px;
-    margin-left: 55%;
+    height: 46px;
+    margin-left: 65%;
 }
 .mushiami-m {
-    height: 45px;
-    margin-left: 77%;
+    height: 40px;
+    margin-left: 75%;
 }
 /* autumn img */
 
