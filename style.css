@@ -137,11 +137,10 @@ h2 {
     box-shadow: 5px 5px 30px 5px rgb(254, 255, 234, 0.3);
 }
 
-/* .call:active {
-  background-color: #3e8e41;
-  box-shadow: 0 50px white;
-  transform: translateY(40px);
-} */
+.call:active {
+    background: rgb(255, 93, 110, 0.88);
+  
+}
 
 /* LP-mobile */
 
