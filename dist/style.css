@@ -11,7 +11,7 @@ body {
 }
 
 #thumbnail {
- display: none;
+    display: none;
 }
 
 /* go back to top botton */
@@ -126,8 +126,8 @@ h2 {
     background: rgb(255, 93, 110, 0.88);
     /*Button Color*/
     color: #FFF;
-    /* border-bottom: solid 4px rgba(141, 53, 62, 0.18); */
-    border-radius: 10px;
+    border: none;
+    border-radius: 45px;
     cursor: pointer;
     outline: none;
 }
@@ -139,7 +139,6 @@ h2 {
 
 .call:active {
     background: rgb(255, 93, 110, 0.88);
-  
 }
 
 /* LP-mobile */
@@ -398,6 +397,8 @@ h2 {
 
 /* about */
 
+
+
 .title img {
     width: 60px;
     margin: 0 auto;
@@ -409,6 +410,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     background: #2EB872;
+    margin-top: 80px;
 }
 
 .title p {
@@ -420,7 +422,6 @@ h2 {
 .number123 {
     display: flex;
     flex-direction: row;
-    height: 300px;
 }
 
 .no1 {
@@ -450,6 +451,7 @@ h2 {
     font-size: 1em;
     color: white;
     text-align: center;
+    padding: 20px;
 }
 
 .no2 {
@@ -482,6 +484,10 @@ h2 {
     font-size: 300px;
     line-height: 0.7em;
     color: rgb(255, 248, 181, 0.2)
+}
+
+.course {
+    font-size: 0.8em;
 }
 
 @media only screen and (max-width: 800px) {
@@ -528,18 +534,19 @@ h2 {
     /* background: red; */
     display: flex;
     flex-direction: column;
-    /* height: 150vh; */
 }
 
 .schedule-title {
     color: rgb(46, 184, 114, 1);
-    padding: 150px;
-}
-
-.schedule-title>p {
-    font-size: 2.5em;
+    height: 200px;
     display: flex;
     justify-content: center;
+    
+}
+
+.schedule-title > p {
+    font-size: 2.5em;
+    line-height: 200px;
 }
 
 .schedule-container {
@@ -765,7 +772,6 @@ h2 {
         display: flex;
         flex-direction: column;
         padding-left: 5px;
-        /* height: 140vh; */
     }
     .grid-container {
         height: auto;
@@ -1282,8 +1288,8 @@ h2 {
 }
 
 .map-title {
-    height: 300px;
-    background: #2EB872;
+    height: 200px;
+    background: rgb(46, 184, 114, 0.9);
     display: flex;
     justify-content: center;
 }
@@ -1396,12 +1402,13 @@ footer img {
     color: white;
     display: flex;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 @media only screen and (max-width: 800px) {
     footer {
         background: #2EB872;
         height: 300px;
+        font-size: 0.8em;
     }
 }
