@@ -99,7 +99,7 @@ nav>img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 100px;
+ 
 }
 
 .main p {
@@ -107,7 +107,10 @@ nav>img {
 }
 
 .btn-container {
-    margin: auto;
+    margin: 0 auto;
+}
+.btn-container1 {
+    margin: 0 auto;
 }
 
 h1 {
@@ -117,9 +120,10 @@ h1 {
 
 h2 {
     font-size: 1.3em;
+    padding-bottom: 10px;
 }
 
-.call {
+.call, .member1,.member2 {
     display: inline-block;
     padding: 1.3em 2.5em;
     text-decoration: none;
@@ -132,12 +136,30 @@ h2 {
     outline: none;
 }
 
+
+.member1, .member2 {
+    background:rgb(211, 191, 74);
+    margin-top: 5%;
+}
 .call:hover {
     background-color: transparent;
     box-shadow: 5px 5px 30px 5px rgb(254, 255, 234, 0.3);
 }
-
+.member1:hover {
+    background-color: transparent;
+    box-shadow: 5px 5px 30px 5px rgb(255, 241, 124, 0.6);
+}
+.member2:hover {
+    background-color: transparent;
+    box-shadow: 5px 5px 30px 5px rgb(255, 241, 124, 0.6);
+}
 .call:active {
+    background: rgb(255, 93, 110, 0.88);
+}
+.member1:active {
+    background: rgb(255, 93, 110, 0.88);
+}
+.member2:active {
     background: rgb(255, 93, 110, 0.88);
 }
 
@@ -156,7 +178,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 300px;
+    padding-top: 200px;
     color: white;
 }
 
@@ -380,9 +402,7 @@ h2 {
     .main {
         padding-top: 100px;
     }
-    .btn-container {
-        padding-top: 50px;
-    }
+    
     h1 {
         padding: 10px;
         font-size: 2.5em;
