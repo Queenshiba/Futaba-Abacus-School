@@ -18,7 +18,7 @@ $(function(){
   return false;
   });
   $('.jump').click(function(){
-    $(document).scrollTop( $("#campain").offset().top ); 
+    $(document).scrollTop( $("#campaign").offset().top ); 
     $('.popup').hide();
     overlay.appendTo(document.body).remove();
     return false;
