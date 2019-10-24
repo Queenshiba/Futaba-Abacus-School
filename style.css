@@ -17,25 +17,28 @@ body {
     width: 100%;
     height: 100%;
     background-color: #52d681;
-    filter:alpha(opacity=70);
-    -moz-opacity:0.7;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
     -khtml-opacity: 0.7;
     opacity: 0.7;
     z-index: 100;
     display: none;
-    }
-    .cnt223 a{
+}
+
+.cnt223 a {
     text-decoration: none;
-    }
-    .popup{
+}
+
+.popup {
     width: 100%;
     margin: 0 auto;
     display: none;
     position: fixed;
     z-index: 101;
-    }
-    .cnt223{
-    min-width: 380px;
+}
+
+.cnt223 {
+    min-width: 370px;
     width: 400px;
     min-height: 400px;
     margin: 100px auto;
@@ -45,61 +48,65 @@ body {
     padding: 15px 35px;
     border-radius: 200px;
     /* box-shadow: 0 2px 5px #000; */
-    display:flex ;
+    display: flex;
     flex-direction: column;
-    
-    }
-    .cnt223 p{
+}
+
+.cnt223 p {
     clear: both;
-        color: #555555;
-        /* text-align: justify; */
-        font-size: 20px;
-    }
-    .cnt223 h1{
-        text-align: center;
-        color: black;
-        font-size: 2.3em;
-    }
-    .cnt223 p a{
+    color: #555555;
+    /* text-align: justify; */
+    font-size: 20px;
+}
+
+.cnt223 h1 {
+    text-align: center;
+    color: black;
+    font-size: 2.3em;
+}
+
+.cnt223 p a {
     color: #d91900;
     font-weight: bold;
     text-decoration-line: underline;
-    
-    }
-    .cnt223 .x{
+}
+
+.cnt223 .x {
     float: right;
     height: 35px;
     left: 22px;
     position: relative;
     top: -25px;
     width: 34px;
-    }
-    .cnt223 .x:hover{
-    cursor: pointer;
-    }
-    .cnt223 > a   {
-        margin-left: auto;
-        padding-top: 10px;
-    }
-    
-    .boshu{
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .boshu {
-        margin-top: 70px;
-    } 
-    
-    .boshu img {
-        height: 50px;
-        margin: 0 auto;
-    }
-    .popup-content img {
-        height: 20px;
-        width: auto;
-    }
+}
 
+.cnt223 .x:hover {
+    cursor: pointer;
+}
+
+.cnt223>a {
+    margin-left: auto;
+    padding-top: 10px;
+}
+
+.boshu {
+    display: flex;
+    flex-direction: row;
+}
+
+.boshu {
+    margin-top: 70px;
+}
+
+.boshu img {
+    height: 50px;
+    margin: 0 auto;
+}
+
+.popup-content img {
+    height: 20px;
+    width: auto;
+}
 
 #thumbnail {
     display: none;
@@ -190,7 +197,6 @@ nav>img {
     display: flex;
     flex-direction: column;
     align-items: center;
- 
 }
 
 .main p {
@@ -200,6 +206,7 @@ nav>img {
 .btn-container {
     margin: 0 auto;
 }
+
 .btn-container1 {
     margin: 0 auto;
 }
@@ -214,7 +221,7 @@ h2 {
     padding-bottom: 10px;
 }
 
-.call, .member1,.member2 {
+.call, .member1, .member2 {
     display: inline-block;
     padding: 1.3em 2.5em;
     text-decoration: none;
@@ -227,29 +234,34 @@ h2 {
     outline: none;
 }
 
-
 .member1, .member2 {
-    background:rgb(211, 191, 74);
+    background: rgb(211, 191, 74);
     margin-top: 5%;
 }
+
 .call:hover {
     background-color: transparent;
     box-shadow: 5px 5px 30px 5px rgb(254, 255, 234, 0.3);
 }
+
 .member1:hover {
     background-color: transparent;
     box-shadow: 5px 5px 30px 5px rgb(255, 241, 124, 0.6);
 }
+
 .member2:hover {
     background-color: transparent;
     box-shadow: 5px 5px 30px 5px rgb(255, 241, 124, 0.6);
 }
+
 .call:active {
     background: rgb(255, 93, 110, 0.88);
 }
+
 .member1:active {
     background: rgb(255, 93, 110, 0.88);
 }
+
 .member2:active {
     background: rgb(255, 93, 110, 0.88);
 }
@@ -493,7 +505,6 @@ h2 {
     .main {
         padding-top: 100px;
     }
-    
     h1 {
         padding: 10px;
         font-size: 2.5em;
@@ -507,8 +518,6 @@ h2 {
 }
 
 /* about */
-
-
 
 .title img {
     width: 60px;
@@ -652,10 +661,9 @@ h2 {
     height: 200px;
     display: flex;
     justify-content: center;
-    
 }
 
-.schedule-title > p {
+.schedule-title>p {
     font-size: 2.5em;
     line-height: 200px;
 }
@@ -925,32 +933,44 @@ h2 {
     display: flex;
     margin: 0 auto;
 }
+
 /* canpain detail */
-.campain-title {
+
+.campaign-title {
     height: 100px;
     background: #2EB872;
     display: flex;
     justify-content: center;
 }
 
-.campain-title>p {
+.campaign-title>p {
     display: flex;
     margin: auto 0;
     color: white;
     font-size: 2em;
 }
 
-.campain-detail {
-    height: 400px;
+.campaign-detail {
+    height: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.campain-detail>p {
-    display: flex;
-    padding-left: 50px;
+.campaign-detail img {
+    height: 30px;
 }
+
+.campaign-detail-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.campaign-detail-content p, .campaign-detail-content4 p {
+    padding: 0px 30px;
+    line-height: 30px;
+}
+
 .numberlist {
     background: rgb(255, 93, 110, 1);
     height: 50px;
@@ -959,10 +979,43 @@ h2 {
     font-size: 2em;
     text-align: center;
     color: white;
+    margin: 20px;
 }
 
+.student {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 10px;
+}
+.campaign-detail-content4 div {
+    padding-left: 40px;
+}
+@media only screen and (max-width: 500px) {
+    .campaign-detail {
+        height: 900px;
+    }
+    .campaign-title>p {
+        font-size: 1.3em;
+    }
+
+    .campaign-detail-content > p {
+        padding: 0px 20px;
+        font-size: 1em;
+    }
+    .campaign-detail-content > p > p{
+        font-size: 2em;
+        background: #555555;
+    }
+    .campaign-detail-content4 div {
+        justify-content: center;
+    }
+}
 
 /* yearlytimeline */
+
 .yearlytimeline {
     padding-bottom: 40px;
 }
