@@ -39,13 +39,13 @@ body {
 
 .cnt223 {
     min-width: 370px;
-    width: 400px;
-    min-height: 400px;
+    width: 370px;
+    min-height: 370px;
     margin: 100px auto;
     background: #f3f3f3;
     position: relative;
     z-index: 103;
-    padding: 15px 35px;
+    padding: 10px 25px;
     border-radius: 200px;
     /* box-shadow: 0 2px 5px #000; */
     display: flex;
@@ -56,7 +56,7 @@ body {
     clear: both;
     color: #555555;
     /* text-align: justify; */
-    font-size: 20px;
+    font-size: 1.2em;
 }
 
 .cnt223 h1 {
@@ -85,8 +85,8 @@ body {
 }
 
 .cnt223>a {
-    margin-left: auto;
-    padding-top: 10px;
+    margin: 0 auto;
+    padding-top: 30px;
 }
 
 .boshu {
@@ -111,7 +111,19 @@ body {
 #thumbnail {
     display: none;
 }
-
+@media screen and (max-width: 370px) {
+    .cnt223 {
+        min-width: 340px;
+        width: 340px;
+        min-height: 340px;
+}
+.cnt223 h1 {
+    font-size: 2em;
+}
+.cnt223 p {
+    font-size: 1em;
+}
+}
 /* go back to top botton */
 
 #myBtn {
