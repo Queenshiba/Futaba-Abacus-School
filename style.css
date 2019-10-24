@@ -111,19 +111,21 @@ body {
 #thumbnail {
     display: none;
 }
+
 @media screen and (max-width: 370px) {
     .cnt223 {
         min-width: 340px;
         width: 340px;
         min-height: 340px;
+    }
+    .cnt223 h1 {
+        font-size: 2em;
+    }
+    .cnt223 p {
+        font-size: 1em;
+    }
 }
-.cnt223 h1 {
-    font-size: 2em;
-}
-.cnt223 p {
-    font-size: 1em;
-}
-}
+
 /* go back to top botton */
 
 #myBtn {
@@ -230,7 +232,7 @@ h1 {
 
 h2 {
     font-size: 1.3em;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 .call, .member1, .member2 {
@@ -899,6 +901,9 @@ h2 {
 }
 
 @media only screen and (max-width: 800px) {
+    .schedule-title>p {
+        font-size: 2em;
+    }
     .schedule-container {
         display: flex;
         flex-direction: column;
@@ -935,7 +940,7 @@ h2 {
 }
 
 .price-detail {
-    height: 600px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -945,12 +950,19 @@ h2 {
     display: flex;
     margin: 0 auto;
 }
-
+@media only screen and (max-width: 500px) {
+    .price-title {
+        height: 150px;
+    }
+    .price-title>p {
+        font-size: 1.5em;
+    }
+    }
 /* canpain detail */
 
 .campaign-title {
-    height: 100px;
-    background: #2EB872;
+    height: 200px;
+    background: rgb(255, 93, 110, 1);
     display: flex;
     justify-content: center;
 }
@@ -984,7 +996,7 @@ h2 {
 }
 
 .numberlist {
-    background: rgb(255, 93, 110, 1);
+    background: #52d681;
     height: 50px;
     width: 50px;
     border-radius: 25px;
@@ -1002,27 +1014,42 @@ h2 {
     color: black;
     padding-bottom: 10px;
 }
+
+.student img {
+    height: 25px;
+}
+
 .campaign-detail-content4 div {
     padding-left: 40px;
 }
+
 @media only screen and (max-width: 500px) {
+    .campaign-title {
+        height: 150px;
+    }
     .campaign-detail {
-        height: 900px;
+        height: 800px;
     }
     .campaign-title>p {
         font-size: 1.3em;
     }
-
-    .campaign-detail-content > p {
+    .campaign-detail-content>p {
         padding: 0px 20px;
         font-size: 1em;
     }
-    .campaign-detail-content > p > p{
+    .campaign-detail-content>p>p {
         font-size: 2em;
         background: #555555;
     }
     .campaign-detail-content4 div {
         justify-content: center;
+        padding-left: 0px;
+    }
+    .campaign-detail img {
+        height: 20px;
+    }
+    .student img {
+        height: 25px;
     }
 }
 
@@ -1056,6 +1083,14 @@ h2 {
     display: flex;
     margin: auto 0;
 }
+
+@media only screen and (max-width: 500px) {
+
+    .yearlytimeline-title {
+        height: 150px;
+    }
+    }
+
 
 .contents-names {
     display: flex;
@@ -1557,6 +1592,9 @@ h2 {
         width: 90%;
         padding: 10px;
     }
+    .map-title {
+        height: 150px;
+    }
 }
 
 footer {
@@ -1621,7 +1659,7 @@ footer img {
 @media only screen and (max-width: 800px) {
     footer {
         background: #2EB872;
-        height: 300px;
+        height: 200px;
         font-size: 0.8em;
     }
 }
