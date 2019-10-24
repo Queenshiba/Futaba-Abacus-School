@@ -950,6 +950,7 @@ h2 {
     display: flex;
     margin: 0 auto;
 }
+
 @media only screen and (max-width: 500px) {
     .price-title {
         height: 150px;
@@ -957,7 +958,8 @@ h2 {
     .price-title>p {
         font-size: 1.5em;
     }
-    }
+}
+
 /* canpain detail */
 
 .campaign-title {
@@ -974,7 +976,49 @@ h2 {
     font-size: 2em;
 }
 
-.campaign-detail {
+.campaign-header {
+    height: 90px;
+    line-height: 90px;
+    color: white;
+    font-size: 1.2em;
+    align-items: baseline;
+    padding-left: 20px;
+}
+
+.campaign-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 20px;
+    
+}
+
+.campaign-content img {
+    height: 20px;
+}
+
+.campaign-content {
+    padding: 0px 20px;
+}
+
+.campaingn-box {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    background: grey;
+    height: 280px;
+    width: 280px;
+    margin: 10px auto;
+    color: whitesmoke;
+    gap: 10px;
+    
+}
+@media only screen and (max-width: 500px) {
+    .campaign-title>p {
+        font-size: 1.5em;
+    }
+}
+/* .campaign-detail {
     height: 700px;
     display: flex;
     flex-direction: column;
@@ -1051,7 +1095,7 @@ h2 {
     .student img {
         height: 25px;
     }
-}
+} */
 
 /* yearlytimeline */
 
@@ -1085,12 +1129,10 @@ h2 {
 }
 
 @media only screen and (max-width: 500px) {
-
     .yearlytimeline-title {
         height: 150px;
     }
-    }
-
+}
 
 .contents-names {
     display: flex;
