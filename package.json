@@ -1,7 +1,6 @@
 {
   "name": "futaba-abacus-school",
   "version": "1.0.0",
-  "description": "",
   "main": "main.js",
   "scripts": {
     "deploy": "gh-pages -d dist"
@@ -18,6 +17,7 @@
   },
   "homepage": "https://github.com/Queenshiba/futaba-abacus-school#readme",
   "dependencies": {
-    "gh-pages": "^2.1.1"
-  }
+    "gh-pages": "^2.2.0"
+  },
+  "description": ""
 }
