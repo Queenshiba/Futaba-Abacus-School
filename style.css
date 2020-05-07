@@ -89,15 +89,27 @@ body {
 
 .underline {
     text-decoration-line: underline;
-    text-decoration-style: wavy;
+    text-decoration-style: double;
     text-decoration-color: red;
     font-weight: bold;
 }
 
-.popup-content-news p {
-    padding-bottom: 20px;
+
+.popup-content-news-main img {
+    width: 40px;
+    /* margin: 2% 0 0 2%; */
 }
 
+.popup-content-news-main {
+    line-height: 50px;
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.7em;
+}
 .button-popup {
     display: flex;
     justify-content: center;
