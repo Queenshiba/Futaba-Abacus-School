@@ -828,7 +828,7 @@ h2 {
     column-gap: 2px;
     row-gap: 4px;
     background: rgba(190, 191, 192, 0.11);
-    grid-template-columns: 0.7fr 1fr 0.5fr 0.5fr 1fr 0.5fr 1fr;
+    grid-template-columns: 0.7fr 1fr 0.5fr 0.5fr 1fr 0.5fr 0.5fr;
     grid-template-rows: 70px 100px 100px 100px 100px 100px 100px;
 }
 
@@ -914,7 +914,7 @@ h2 {
 
 .Sat {
     grid-area: 1 / 7 / 2 / 8;
-    background: rgb(46, 184, 114, 0.8);
+    background: rgb(46, 184, 114, 0.4);
     color: white;
     font-size: 2em;
 }
@@ -922,6 +922,7 @@ h2 {
 .SatEmp {
     grid-area: 2 / 7 / 8 / 8;
     background: rgba(190, 191, 192, 0.21);
+    writing-mode: vertical-rl;
 }
 
 .time1 {
