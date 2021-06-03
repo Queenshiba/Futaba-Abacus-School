@@ -94,7 +94,6 @@ body {
     font-weight: bold;
 }
 
-
 .popup-content-news-main img {
     width: 40px;
     /* margin: 2% 0 0 2%; */
@@ -110,13 +109,14 @@ body {
     text-align: center;
     font-size: 1.7em;
 }
+
 .button-popup {
     display: flex;
     justify-content: center;
 }
 
 .button-popup a {
-   color: rgb(31, 119, 75);
+    color: rgb(31, 119, 75);
     padding: 15px 20px;
     background: palegoldenrod;
     border-radius: 70px;
@@ -828,8 +828,8 @@ h2 {
     column-gap: 2px;
     row-gap: 4px;
     background: rgba(190, 191, 192, 0.11);
-    grid-template-columns: 0.7fr 1fr 0.5fr 0.5fr 1fr 0.5fr 0.5fr;
-    grid-template-rows: 70px 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 0.7fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
+    grid-template-rows: 70px 100px 100px 100px 100px;
 }
 
 .grid-container div {
@@ -860,7 +860,7 @@ h2 {
 
 .Tue {
     grid-area: 1 / 3 / 2 / 4;
-    background: rgb(46, 184, 114, 0.4);
+    background: rgb(46, 184, 114, 0.8);
     color: white;
     font-size: 2em;
 }
@@ -874,7 +874,7 @@ h2 {
 
 .Wed {
     grid-area: 1 / 4 / 2 / 5;
-    background: rgb(46, 184, 114, 0.4);
+    background: rgb(46, 184, 114, 0.8);
     color: white;
     font-size: 2em;
 }
@@ -900,7 +900,7 @@ h2 {
 
 .Fri {
     grid-area: 1 / 6 / 2 / 7;
-    background: rgb(46, 184, 114, 0.4);
+    background: rgb(46, 184, 114, 0.8);
     color: white;
     font-size: 2em;
 }
@@ -925,101 +925,161 @@ h2 {
     writing-mode: vertical-rl;
 }
 
-.time1 {
+.time3 {
     grid-area: 2 / 1 / 3 / 2;
     background: rgb(254, 255, 234, 1);
 }
 
-.time2 {
-    grid-area: 3 / 1 / 4 / 2;
-    background: rgb(254, 255, 234, 0.3);
-}
-
-.time3 {
-    grid-area: 4 / 1 / 5 / 2;
-    background: rgb(254, 255, 234, 1);
-}
-
 .time4 {
-    grid-area: 5 / 1 / 6 / 2;
+    grid-area: 3/ 1 / 4 / 2;
     background: rgb(254, 255, 234, 0.3);
 }
 
 .time5 {
-    grid-area: 6 / 1 / 7 / 2;
+    grid-area: 4 / 1 / 5 / 2;
     background: rgb(254, 255, 234, 1);
 }
 
 .time6 {
-    grid-area: 7 / 1 / 8 / 2;
+    grid-area: 5 / 1 / 6 / 2;
     background: rgb(254, 255, 234, 0.3);
 }
 
-.class1 {
-    grid-area: 2 / 7 / 3 / 8;
+.class1-tue {
+    grid-area: 2 / 3 / 3/ 4;
     background: rgb(255, 93, 110, 0.88);
     border-radius: 15px;
     color: #FFF;
 }
 
-.class2 {
-    grid-area: 3 / 7 / 4 / 8;
+.class2-tue {
+    grid-area: 3 / 3 / 4 / 4;
     background: rgb(255, 93, 110, 0.88);
     border-radius: 15px;
     color: #FFF;
 }
 
-.class3 {
+.class3-tue {
+    grid-area: 4 / 3 / 5 / 4;
+    background: rgb(255, 93, 110, 0.88);
+    border-radius: 15px;
+    color: #FFF;
+}
+
+.class4-tue {
+    grid-area: 5 / 3 / 6 / 4;
+    background: rgb(255, 93, 110, 0.88);
+    border-radius: 15px;
+    color: #FFF;
+}
+
+.class1-wed {
+    grid-area: 2 / 4 / 3 / 5;
+    background: rgb(255, 93, 110, 0.88);
+    border-radius: 15px;
+    color: #FFF;
+}
+
+.class2-wed {
+    grid-area: 3 / 4 / 4 / 5;
+    background: rgb(255, 93, 110, 0.88);
+    border-radius: 15px;
+    color: #FFF;
+}
+
+.class3-wed {
+    grid-area: 4 / 4 / 5 / 5;
+    background: rgb(255, 93, 110, 0.88);
+    border-radius: 15px;
+    color: #FFF;
+}
+
+.class4-wed {
+    grid-area: 5 / 4 / 6 / 5;
+    background: rgb(255, 93, 110, 0.88);
+    border-radius: 15px;
+    color: #FFF;
+}
+
+.class1-mon {
     grid-area: 4 / 2 / 5 / 3;
     background: rgb(255, 93, 110, 0.88);
     border-radius: 15px;
     color: #FFF;
 }
 
-.class4 {
+.class2-mon {
+    grid-area: 2 / 2 / 3 / 3;
+    background: rgb(255, 93, 110, 0.88);
+    border-radius: 15px;
+    color: #FFF;
+}
+
+.class3-mon {
+    grid-area: 3 / 2 / 4 / 3;
+    background: rgb(255, 93, 110, 0.88);
+    border-radius: 15px;
+    color: #FFF;
+}
+
+.class4-mon {
     grid-area: 5 / 2 / 6 / 3;
     background: rgb(255, 93, 110, 0.88);
     border-radius: 15px;
     color: #FFF;
 }
 
-.class5 {
-    grid-area: 6 / 2 / 7 / 3;
+.class1-thu {
+    grid-area: 2 / 5 / 3 / 6;
     background: rgb(255, 93, 110, 0.88);
     border-radius: 15px;
     color: #FFF;
 }
 
-.class6 {
-    grid-area: 7 / 2 / 8 / 3;
+.class2-thu {
+    grid-area: 3 / 5 / 4 / 6;
     background: rgb(255, 93, 110, 0.88);
     border-radius: 15px;
     color: #FFF;
 }
 
-.class7 {
+.class3-thu {
     grid-area: 4 / 5 / 5 / 6;
     background: rgb(255, 93, 110, 0.88);
     border-radius: 15px;
     color: #FFF;
 }
 
-.class8 {
+.class4-thu {
     grid-area: 5 / 5 / 6 / 6;
     background: rgb(255, 93, 110, 0.88);
     border-radius: 15px;
     color: #FFF;
 }
 
-.class9 {
-    grid-area: 6 / 5 / 7 / 6;
+.class1-fri {
+    grid-area: 2 / 6 / 3 / 7;
     background: rgb(255, 93, 110, 0.88);
     border-radius: 15px;
     color: #FFF;
 }
 
-.class10 {
-    grid-area: 7 / 5 / 8 / 6;
+.class2-fri {
+    grid-area: 3 / 6 / 4 / 7;
+    background: rgb(255, 93, 110, 0.88);
+    border-radius: 15px;
+    color: #FFF;
+}
+
+.class3-fri {
+    grid-area: 4 / 6 / 5 / 7;
+    background: rgb(255, 93, 110, 0.88);
+    border-radius: 15px;
+    color: #FFF;
+}
+
+.class4-fri {
+    grid-area: 5 / 6 / 6 / 7;
     background: rgb(255, 93, 110, 0.88);
     border-radius: 15px;
     color: #FFF;
