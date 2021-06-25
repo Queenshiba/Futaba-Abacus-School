@@ -1060,28 +1060,28 @@ h2 {
 
 .class1-fri {
     grid-area: 2 / 6 / 3 / 7;
-    background: rgb(255, 93, 110, 0.88);
+    background: rgba(255, 93, 110, 0.4);
     border-radius: 15px;
     color: #FFF;
 }
 
 .class2-fri {
     grid-area: 3 / 6 / 4 / 7;
-    background: rgb(255, 93, 110, 0.88);
+    background: rgb(255, 93, 110, 0.4);
     border-radius: 15px;
     color: #FFF;
 }
 
 .class3-fri {
     grid-area: 4 / 6 / 5 / 7;
-    background: rgb(255, 93, 110, 0.88);
+    background: rgba(255, 93, 110, 0.4);
     border-radius: 15px;
     color: #FFF;
 }
 
 .class4-fri {
     grid-area: 5 / 6 / 6 / 7;
-    background: rgb(255, 93, 110, 0.88);
+    background: rgb(255, 93, 110, 0.4);
     border-radius: 15px;
     color: #FFF;
 }
@@ -1790,7 +1790,7 @@ h2 {
     margin: auto 0;
 }
 
-.map-detail>p {
+.map-detail>p,h2 {
     display: flex;
     padding-left: 30px;
 }
