@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Queenshiba/futaba-abacus-school#readme",
   "dependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^5.0.0"
   },
   "description": "- a website for \"futabasoroban\", futaba abacus school in Hyogo, Japan\r - the owner of the school needed these 3 points for the website",
   "devDependencies": {}
